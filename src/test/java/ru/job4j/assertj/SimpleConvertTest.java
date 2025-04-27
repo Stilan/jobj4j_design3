@@ -63,7 +63,7 @@ class SimpleConvertTest {
         assertThat(list).first().isEqualTo("first");
         assertThat(list).element(0).isNotNull().isEqualTo("first");
         assertThat(list).startsWith("first", "second")
-                .endsWith("four", "five");5. Утверждения с коллекциями
+                .endsWith("four", "five");
     }
 
     @Test
